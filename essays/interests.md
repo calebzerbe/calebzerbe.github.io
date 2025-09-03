@@ -8,6 +8,13 @@ published: true
 labels:
   - Software Engineering
   - Interests
+  - Learning
+  - JavaScript
+  - TypeScript
+  - Large Language Models
+  - Machine Learning
+  - Cybersecurity
+  - Networking
 ---
 
 Over the past half a decade, I’ve looked at JavaScript and thought that it was some magical and extremely complex language that only a few people were able to understand and utilize. This led me to stray away from it for a long time, and insteading focusing on languages like HTML, CSS, and eventually moving on to languages like Java, Python, C, and C++, without ever realizing the potential usefulness of JavaScript. After taking a look around at all of the new applications and websites being created, I noticed how much of them were being built on JavaScript and any JavaScript related tools and languages (e.g. TypeScript). This led me to inquire a bit more about the inner workings of JavaScript and TypeScript, a superset of JavaScript that allows you to have type-strictness. Ever since then, I’ve been interested in utilizing JavaScript and TypeScript to build interactive applications, and to test the limits of what JavaScript can do.
