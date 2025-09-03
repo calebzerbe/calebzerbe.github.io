@@ -25,4 +25,4 @@ Once the design process was done, myself and 2-3 others coded the HTML and CSS r
 This project in particular taught me not only how to work in a team, but also how to design a website that would be user friendly and easy to understand. 
 This was also my first real experience in how to get work done on a tight deadline (you have less than a month to decide what project you want to do and how you want to do it during the HACC), how to divide up tasks to increase work efficiency, and how to communicate with others effectively.
 
-Link to the devpost: https://devpost.com/software/mars-fgq4xs
+Link to the devpost: <a href="https://devpost.com/software/mars-fgq4xs">https://devpost.com/software/mars-fgq4xs</a>
