@@ -8,8 +8,12 @@ published: true
 labels:
   - HTML
   - CSS
+  - JavaScript
+  - Bootstrap
   - Python
+  - Django
   - MongoDB
+  - Google-Cloud-Run
 summary: "My team and I developed a web site for the Hawaii Marine Animal Response organization that won first place in the 2021 Hawaii Annual Coding Challenge."
 ---
 
