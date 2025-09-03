@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/ImageForProfessionalPortfolioHACC2022.png
 title: "AFR - HACC 2022"
-date: 2021-11-01
+date: 2022-11-01
 published: true
 labels:
   - HTML
