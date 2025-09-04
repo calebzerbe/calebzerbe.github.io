@@ -38,7 +38,8 @@
       "studyType": "B.S.",
       "startDate": "2024-09-01",
       "endDate": "Present",
-      "courses": [ "ICS 111", "ICS 211", "ICS 311", "ICS 314"
+      "courses": [ 
+        "ICS 111 - Introduction to Computer Science I", "ICS 141 - Discrete Math I", "ICS 211 - Introduction to Computer Science II", "ICS 241 - Discrete Math II", "ICS 311 - Algorithms", "ICS 314 - Software Engineering"
       ]
     }
   ],
