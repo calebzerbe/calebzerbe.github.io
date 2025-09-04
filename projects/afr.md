@@ -16,8 +16,8 @@ summary: "My team and I developed a data visualization web site for Hawaii Open 
 ---
 
 <div class="text-center p-4">
+  <img width="300px" src="../img/projectimages/ImageForProfessionalPortfolioHACC2022.png" class="img-thumbnail" >
   <img width="300px" src="../img/projectimages/AFR Graph Type Screen.png" class="img-thumbnail" >
-  <img width="300px" src="../img/projectimages/AFR Graph Parameter Screen.png" class="img-thumbnail" >
   <img width="300px" src="../img/projectimages/AFR Graph Customization Top of Screen.png" class="img-thumbnail" >
   <img width="300px" src="../img/projectimages/AFR Graph Download Screen.png" class="img-thumbnail" >
   <p style="text-align: center;">Examples of some prototype pages within the website</p>
