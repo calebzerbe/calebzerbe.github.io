@@ -22,7 +22,7 @@ summary: "My team and I developed a web site for the Hawaii Marine Animal Respon
   <img width="300px" src="../img/projectimages/HMAR Sighting Form Bottom of Screen.png" class="img-thumbnail" >
   <img width="300px" src="../img/projectimages/HMAR Spreadsheet Page.png" class="img-thumbnail" >
   <img width="300px" src="../img/projectimages/HMAR Specific Report.png" class="img-thumbnail" >
-  <p style="text-align: center;">Images of some pages within the website</p>
+  <p style="text-align: center;">Examples of some pages within the website</p>
 </div>
 
 This project was created during the 2021 Hawaii Annual Coding Challenge (HACC) to aid the Hawaii Marine Animal Response organization, the largest Hawaii non-profit marine species conservation and response organization. 
