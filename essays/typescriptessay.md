@@ -20,7 +20,7 @@ When I first learned about types back in high school, I thought that they were a
 
 Having spent over a year learning statically typed languages like Java, C, and C++ prior to learning JavaScript, I got really used to declaring types for every little variable, subroutine, method, and function in my code. Going back to a dynamically typed language like JavaScript really threw me off (despite having previous experience in other dynamically typed languages like Python and PowerShell), and left me open to making lots of mistakes for data types. This left me yearning for something similar to JavaScript that had strict typing. This is where TypeScript comes in handy, providing the extra features that JavaScript doesn’t currently offer. It took a while to get used to the syntax of TypeScript, especially coming from a background of Java where the types are all declared before the variable or block of code. But, the effort put into learning TypeScript definitely pays off, because TypeScript can save you a lot of time looking for type mistakes in your code, so you don’t have to spend hours debugging code like I did with PowerShell a while back. Debugging is the bane of my existence, so anything that can help with that is a life-saver and a game changer.
 
-<img width="600px" class="rounded; align-items:center; pe-4" src="../img/E10_TypeScript_Essay_Image.jpg">
+<img width="600px" class="rounded pe-4" style="text-align: center;" src="../img/E10_TypeScript_Essay_Image.jpg">
 <p style="text-align: center;">(McKenzie, 2018)<a href="https://www.theserverside.com/tutorial/What-Java-developers-need-to-know-about-TypeScript-syntax">[2]</a></p>
 
 ## Athletic Software Engineering
@@ -34,8 +34,8 @@ Having done multiple projects before with a tight deadline in school (for multip
 [1] Athletic Software Engineering (2017) | Philip Johnson | Professional Portfolio. (2017). Philip Johnson | Professional Portfolio.
 https://philipmjohnson.org/essays/ase-2017.html
 
+[2] McKenzie, C. (2018, January 16). What Java developers need to know about TypeScript syntax. TheServerSide.com. 
+https://www.theserverside.com/tutorial/What-Java-developers-need-to-know-about-TypeScript-syntax
 
-
-[2] McKenzie, C. (2018, January 16). What Java developers need to know about TypeScript syntax. TheServerSide.com. https://www.theserverside.com/tutorial/What-Java-developers-need-to-know-about-TypeScript-syntax
-
-[3] The relationship between Self-Confidence and performance. (2023). https://www.trine.edu/academics/centers/center-for-sports-studies/blog/2023/the_relationship_between_self-confidence_and_performance.aspx
+[3] The relationship between Self-Confidence and performance. (2023). 
+https://www.trine.edu/academics/centers/center-for-sports-studies/blog/2023/the_relationship_between_self-confidence_and_performance.aspx
