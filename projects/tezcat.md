@@ -15,7 +15,7 @@ summary: "I worked with the Game Development Club at the University of Hawaii at
 <div class="text-center p-4">
   <img width="300px" src="../img/projectimages/Tezcat Main Game.png" class="img-thumbnail" >
   <img width="300px" src="../img/projectimages/Tezcat Game Over.png" class="img-thumbnail" >
-  <p style="text-align: center;">Images of the player character with enemies (left) and the game over screen (right)</p>
+  <p style="text-align: center;">Images of the player character with enemies and the game over screen</p>
 </div>
 
 This project was created during the Fall 2024 semester at UH Manoa for the semesterly game jam that the Game Development Club hosts. 
