@@ -20,8 +20,8 @@ When I first learned about types back in high school, I thought that they were a
 
 Having spent over a year learning statically typed languages like Java, C, and C++ prior to learning JavaScript, I got really used to declaring types for every little variable, subroutine, method, and function in my code. Going back to a dynamically typed language like JavaScript really threw me off (despite having previous experience in other dynamically typed languages like Python and PowerShell), and left me open to making lots of mistakes for data types. This left me yearning for something similar to JavaScript that had strict typing. This is where TypeScript comes in handy, providing the extra features that JavaScript doesn’t currently offer. It took a while to get used to the syntax of TypeScript, especially coming from a background of Java where the types are all declared before the variable or block of code. But, the effort put into learning TypeScript definitely pays off, because TypeScript can save you a lot of time looking for type mistakes in your code, so you don’t have to spend hours debugging code like I did with PowerShell a while back. Debugging is the bane of my existence, so anything that can help with that is a life-saver and a game changer.
 
-<img width="300px" class="rounded text-center pe-4" src="../img/E10_TypeScript_Essay_Image.jpg">
-<p style="text-align: center;">(McKenzie, 2018)</p><a href="https://www.theserverside.com/tutorial/What-Java-developers-need-to-know-about-TypeScript-syntax">[2]</a>
+<img width="600px" class="rounded text-center pe-4" src="../img/E10_TypeScript_Essay_Image.jpg">
+<p style="text-align: center;">(McKenzie, 2018)</p><a style="text-align: center;" href="https://www.theserverside.com/tutorial/What-Java-developers-need-to-know-about-TypeScript-syntax">[2]</a>
 
 ## Athletic Software Engineering
 
