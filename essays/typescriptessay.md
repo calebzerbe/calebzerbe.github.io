@@ -33,6 +33,7 @@ Having done multiple projects before with a tight deadline in school (for multip
 
 [1] Athletic Software Engineering (2017) | Philip Johnson | Professional Portfolio. (2017). Philip Johnson | Professional Portfolio. https://philipmjohnson.org/essays/ase-2017.html
 
+
 [2] McKenzie, C. (2018, January 16). What Java developers need to know about TypeScript syntax. TheServerSide.com. https://www.theserverside.com/tutorial/What-Java-developers-need-to-know-about-TypeScript-syntax
 
 [3] The relationship between Self-Confidence and performance. (2023). https://www.trine.edu/academics/centers/center-for-sports-studies/blog/2023/the_relationship_between_self-confidence_and_performance.aspx
