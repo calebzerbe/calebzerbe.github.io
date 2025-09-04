@@ -12,6 +12,12 @@ labels:
 summary: "I worked with the Game Development Club at the University of Hawaii at Manoa to create a 2D dungeon game during the Fall 2024 Game Jam."
 ---
 
+<div class="text-center p-4">
+  <img width="300px" src="../img/projectimages/Tezcat Main Game.png" class="img-thumbnail" >
+  <img width="300px" src="../img/projectimages/Tezcat Game Over.png" class="img-thumbnail" >
+  <p style="text-align: center;">Images of the player character with enemies (left) and the game over screen (right)</p>
+</div>
+
 This project was created during the Fall 2024 semester at UH Manoa for the semesterly game jam that the Game Development Club hosts. 
 The goal of this project was to create an adventure game called Tezcat, that had you looting treasure within an ancient Aztec temple. 
 The character that you played as was the Plunderer, whose goal is to get through the entire dungeon without getting caught or hit by enemies, all the way to the bottom of the dungeon, where the game would be completed.
