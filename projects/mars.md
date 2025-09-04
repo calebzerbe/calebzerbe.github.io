@@ -17,6 +17,12 @@ labels:
 summary: "My team and I developed a web site for the Hawaii Marine Animal Response organization that won first place in the 2021 Hawaii Annual Coding Challenge."
 ---
 
+<div class="text-center p-4">
+  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
+  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
+  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
+</div>
+
 This project was created during the 2021 Hawaii Annual Coding Challenge (HACC) to aid the Hawaii Marine Animal Response organization, the largest Hawaii non-profit marine species conservation and response organization. 
 We particularly aimed to solve the issue of HMAR not having an online form to submit any sightings of marine life in distress. 
 At the time of the 2021 challenge, you could only call HMAR to report a sighting, which is quite slow and burdensome for operators on the HMAR side. 
