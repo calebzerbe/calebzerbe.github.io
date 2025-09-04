@@ -15,6 +15,14 @@ labels:
 summary: "My team and I developed a data visualization web site for Hawaii Open Data during the 2022 Hawaii Annual Coding Challenge."
 ---
 
+<div class="text-center p-4">
+  <img width="300px" src="../img/projectimages/AFR Graph Type Screen.png" class="img-thumbnail" >
+  <img width="300px" src="../img/projectimages/AFR Graph Parameter Screen.png" class="img-thumbnail" >
+  <img width="300px" src="../img/projectimages/AFR Graph Customization Top of Screen.png" class="img-thumbnail" >
+  <img width="300px" src="../img/projectimages/AFR Graph Download Screen.png" class="img-thumbnail" >
+  <p style="text-align: center;">Examples of some prototype pages within the website</p>
+</div>
+
 This project was created during the 2022 Hawaii Annual Coding Challenge (HACC) to aid Hawaii Open Data, a website run by the State of Hawaii to provide access for all users to access State data covering various topics, including but not limited to social services, employment, economic development, culture and recreation, and much more. 
 We particularly aimed to solve the lack of Hawaii Open Data’s ability to create visualizations for the often overwhelming amounts of data located in their data sets. 
 Our solution involved creating a website that could grab a link to the particular data set of your choosing, then created a customizable graph (or graphs if you wanted more than one) with a type of your choosing (bar graph, line graph, pie chart, or scatter plot) utilizing the information grabbed from the data set. 
