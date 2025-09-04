@@ -31,7 +31,9 @@ Having done multiple projects before with a tight deadline in school (for multip
 
 ## References
 
-[1] Athletic Software Engineering (2017) | Philip Johnson | Professional Portfolio. (2017). Philip Johnson | Professional Portfolio. https://philipmjohnson.org/essays/ase-2017.html
+[1] Athletic Software Engineering (2017) | Philip Johnson | Professional Portfolio. (2017). Philip Johnson | Professional Portfolio.
+https://philipmjohnson.org/essays/ase-2017.html
+
 
 
 [2] McKenzie, C. (2018, January 16). What Java developers need to know about TypeScript syntax. TheServerSide.com. https://www.theserverside.com/tutorial/What-Java-developers-need-to-know-about-TypeScript-syntax
