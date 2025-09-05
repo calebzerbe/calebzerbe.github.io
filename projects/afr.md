@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/ImageForProfessionalPortfolioHACC2022.png
+image: img/ImageForProfessionalPortfolioHACC2022.jpg
 title: "AFR - HACC 2022"
 date: 2022-11-01
 published: true
@@ -16,7 +16,7 @@ summary: "My team and I developed a data visualization web site for Hawaii Open 
 ---
 
 <div class="text-center p-4">
-  <img width="300px" src="../img/ImageForProfessionalPortfolioHACC2022.png" class="img-thumbnail" >
+  <img width="300px" src="../img/projectimages/ImageForProfessionalPortfolioHACC2022.png" class="img-thumbnail" >
   <img width="300px" src="../img/projectimages/AFR Graph Type Screen.png" class="img-thumbnail" >
   <img width="300px" src="../img/projectimages/AFR Graph Customization Top of Screen.png" class="img-thumbnail" >
   <img width="300px" src="../img/projectimages/AFR Graph Download Screen.png" class="img-thumbnail" >
