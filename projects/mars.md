@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/ImageForProfessionalPortfolioHACC2021.png
+image: img/ImageForProfessionalPortfolioHACC2021.jpg
 title: "MARS - HACC 2021"
 date: 2021-11-01
 published: true
