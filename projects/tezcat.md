@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/ImageForProfessionalPortfolioGameDev.png
+image: img/ImageForProfessionalPortfolioGameDev.jpg
 title: "Tezcat - Game Development Club Game Jam"
 date: 2024-12-01
 published: true
