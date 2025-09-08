@@ -27,4 +27,5 @@ Working on this project allowed me to learn more about utilizing Unity, GitHub, 
 I also improved my coordination and communication skills, as we had weekly meetings where we were providing constant updates on our project, and informing the entire club of any changes that we needed to make along the way, in addition to communicating with fellow team members to make sure that we were on the right track, and that our code would function properly when merged together to create the final product.
 
 Link to the Game: <a href="https://uhmanoagamedev.itch.io/tezcat">https://uhmanoagamedev.itch.io/tezcat</a>
+
 Link to the GitHub: <a href="https://github.com/GameDevUHM/GDGJ-Temptation">https://github.com/GameDevUHM/GDGJ-Temptation</a>
