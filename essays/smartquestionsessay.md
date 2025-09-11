@@ -33,7 +33,7 @@ Moving forward, let’s take a look at a question that would almost always get y
 
 After taking a look at some smart and not-so-smart questions online, it is imperative that you are clear with what you are trying to do, where you are trying to go, and where you are currently stuck and what is causing that stuckness. Being clear seems to be the deciding factor in whether or not your question is answered. Looking back at the not-so-smart question, you could see that because the poster was not clear with what their exact problem was and the fix that they were looking for, they got a response that wasn’t entirely specific and may or may not have been able to resolve the problem that they were facing. However, when looking back at the smart question, you could see that because the poster was clear with their exact problem, where they were experiencing the problem, how they were experiencing the problem, and what the intended outcome was supposed to be, the poster got a specific response that was able to resolve the problem that they were facing. So, if you didn’t get anything out of this but want the key takeaways, just remember to know what your intended outcome is, where your current problem is happening and what the problem is when compared to your intended outcome, and what you want others to do to help you with your problem.
 
-## Works Cited
+## References
 
 [1] Ankit, & Sahr, B. (2025, September 10). Nodejs backend endpoint not hitting consistently. using Nginx, EC2. Stack Overflow. https://stackoverflow.com/questions/79760525/nodejs-backend-endpoint-not-hitting-consistently-using-nginx-ec2 
 
