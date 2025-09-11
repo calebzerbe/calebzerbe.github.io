@@ -1,99 +1,44 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "Communication Is Key, Don’t Question It"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
-published: false
+date: 2025-09-11
+published: true
 labels:
   - Questions
   - Answers
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+No one likes it when they have a task or assignment to do, and they get stuck for hours trying to figure out one tiny section of the greater whole. That is why over time, there have been many forums, help desks, and manuals that were created specifically for helping users online with their various needs. This is something that has been done for a long time. Before the dawn of computers, you had manuals for different products and call centers where you could ask questions about your specific product. Going into the digital age, we’ve shifted this to various online platforms where you can ask for help.
 
-## Is there such thing as a stupid question?
+## Hailing for Help
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+When asking for help, like everything else, that requires some sort of interaction between people, which means that communication is key. You must be able to get your question across with specificity and politeness in a way that invites others to want to help you out, and allows them to figure out your problem without coming to various assumptions about what you are trying to accomplish and what you are using to accomplish your goals. If you do not have good communication, it can slow down the time between your question and a response, you may not get the answer or answers that you want, and you may not even get an answer. Quoting Tony Robbins, “The way we communicate with others and ourselves ultimately determines our quality of life”[1]. In this case, the way you communicate determines the quality of the response(s).
 
-## What’s a smart question?
+## Why Software Engineers Should Craft Their Questions Carefully
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+For software engineers, when creating a product, the product has to be specifically tailored to what they are being applied to. That means that many times you are creating code that can’t just be grabbed from some introductory learning website, and coming across problems will likely require some extensive understanding of what you are trying to do, what error you are facing, and how your code currently functions. If you decide to ask someone for help, that means that they will also have to have some sort of understanding of what you are trying to do, your error(s), and how your code functions in order to give some sort of response. That is why smart questions are important. Being specific allows you to aid your potential responders in understanding what you are trying to accomplish and how your current approach to the problem is, so that they can use their knowledge and experience to diagnose the problem’s specific solution, and not just give generic pointers that don’t really help you much. Being specific also saves your responders the time of understanding what you are trying to do, which is crucial, especially when you are on a deadline and trying to complete a project, or resolve an error in a system. After all, time is precious, and spending more of your time and your responders’ time than is necessary is not ideal. To illustrate my points, let's examine what a potentially smart question would be, and what a potentially not so smart question would be. For the two following questions, we will be basing our examination on Eric Raymond and Rick Moen’s How To Ask Questions The Smart Way[2], where a smart question will follow most or all of the principles stated within the book, while a not-so-smart question will not follow such principles.
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+## Why Doesn’t My Question Work?
 
-```
-Q: python date of the previous month
+First, we’ll start off with a question that wouldn’t likely get you the answer(s) that you are looking for. This specific question was found in StackOverflow on the topic of php, aptly named “Why my code doesnt works”[3]. This particular user asks netizens why their if-statement returns false if it is not working, then asks what their logical mistake was and how they may fix the code so that it will work. The user then provides a long set of code with only one comment in the code that states, “checks if both of results”, which doesn’t help much with understanding what the code does. This question in particular would not be considered a great question to ask because it violates much of the principles outlined by Raymond and Moen. The question is not precise or very informative about what the problem is, merely stating that the if-statement is not working and that it is returning false. In addition, the question is also not entirely clear and written with correct grammar (although it is understandable, since the user is likely speaking English as their second language, given that the code is written in another language in some parts). Most importantly, although the user states what type of response they want to some extent (code with fixes), they are not explicit with how they ask the question, just asking how they may fix the code, without explaining much about what the code even does, making it harder for others to understand what the code does to the point where they can provide a helpful answer. Due to the lack of quality in the question, the responses aren’t extremely informative at first. One user states that the question is impossible to answer, then asks for the structure of the database, while another user just tells the original poster to debug the code. After giving the database structure, the poster received an answer, though it provided many surface level fixes that the poster could try to fix their code, with a snippet of code that they could use to test their fixes. None of these answers really gave the poster what they wanted, and the user did not end up responding letting the other users know if their answers were helpful or not, or if their issue was resolved.
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
+## Quality Questions Create Quality Responses
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
+Moving forward, let’s take a look at a question that would almost always get you the answer(s) that you are looking for. This specific question was also found in StackOverflow, named “Nodejs backend endpoint not hitting consistently. Using nginx, ec2”[4]. This particular user is asking netizens for the reason why their backend endpoint/route called /allRoom is not being hit when trying to create a room. Before going into the nitty gritty of this question, it should be stated that this question is considered a smart question because it: is precise and informative about the problem, it describes the problem’s symptoms (with images of outputs), and the question is explicit (it specifically asks why these particular errors are occurring). In the beginning of the question, the user specifically lets everyone know what they are using: Nginx for load balancing, hosting on AWS, and a backend written in Node.js. Throughout the question, the user provides snippets of code that are used to help understand the problem, outputs of code to help understand what is going wrong and where, as well as error status codes (200) from the frontend. The user also explicitly states what should be happening and what is currently happening (players are bypassing a check that ensures that a room exists, and two administrators are ending up in the same room, which is not intended). This specificity within the question, with a clear understanding of what is desired and what is currently possessed, allowed users to quickly respond, giving an answer only a few hours after the question was posted. The first user who responded was able to clearly identify a problem with NGINX, and gave updated code to add to the poster’s join.jsx file and their NGINX config log. The poster was promptly able to fix their problem and let the other users know that their problem was resolved.
 
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
+## Hopefully Intelligent Takeaways
 
-I have solved this trouble in bash with:
+After taking a look at some smart and not-so-smart questions online, it is imperative that you are clear with what you are trying to do, where you are trying to go, and where you are currently stuck and what is causing that stuckness. Being clear seems to be the deciding factor in whether or not your question is answered. Looking back at the not-so-smart question, you could see that because the poster was not clear with what their exact problem was and the fix that they were looking for, they got a response that wasn’t entirely specific and may or may not have been able to resolve the problem that they were facing. However, when looking back at the smart question, you could see that because the poster was clear with their exact problem, where they were experiencing the problem, how they were experiencing the problem, and what the intended outcome was supposed to be, the poster got a specific response that was able to resolve the problem that they were facing. So, if you didn’t get anything out of this but want the key takeaways, just remember to know what your intended outcome is, where your current problem is happening and what the problem is when compared to your intended outcome, and what you want others to do to help you with your problem.
 
-echo $(date -d"3 month ago" "+%G%m%d")
+## Works Cited
 
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
+Ankit, & Sahr, B. (2025, September 10). Nodejs backend endpoint not hitting consistently. using Nginx, EC2. Stack Overflow. https://stackoverflow.com/questions/79760525/nodejs-backend-endpoint-not-hitting-consistently-using-nginx-ec2 
 
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
+Gracious Quotes. (2023, November 30). 37 effective communication quotes (respect). https://graciousquotes.com/communication/ 
 
-Thanks for your help!
-```
+Raymond, E. S., & Moen, R. (2014, May 21). How to ask questions the smart way. http://www.catb.org/. http://www.catb.org/esr/faqs/smart-questions.html 
 
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
-
-```
-A: datetime and the datetime.timedelta classes are your friend.
-
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
-
-## The foolproof way to get ignored.
-
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
-
-```
-Q: Facebook Desktop Notifier
-
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
-
-## Conclusion
-
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+Yoni, matt3141, & Geeky Guy. (2013, August 5). Why my code doesnt works. Stack Overflow. https://stackoverflow.com/questions/18068860/why-my-code-doesnt-works
