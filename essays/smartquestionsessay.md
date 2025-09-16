@@ -8,6 +8,7 @@ published: true
 labels:
   - Questions
   - Answers
+  - Communication
   - StackOverflow
 ---
 
