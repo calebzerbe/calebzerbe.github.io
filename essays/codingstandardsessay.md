@@ -1,41 +1,33 @@
 ---
 layout: essay
 type: essay
-title: "Getting Technical with TypeScript"
+title: "Letting Go of Errors with ESLint"
 # All dates must be YYYY-MM-DD format!
-date: 2025-09-04
+date: 2025-09-25
 published: True
 labels:
+  - Coding Standards
+  - ESLint
   - TypeScript
-  - JavaScript
-  - Java
-  - Athletic Software Engineering
+  - VScode
 ---
 
-## Getting Technical with TypeScript
+## Letting Go of Errors with ESLint
 
-When I first learned about types back in high school, I thought that they were annoying and just another thing that you needed to add into your code that wasted time. Oh boy, could I have been any more wrong about that? Although it didn’t take me that long to change my mind (hours and hours of troubleshooting hundreds of lines of PowerShell code because of a wrong type somewhere in the script can change your mind very quickly), the idea of having to declare types was something that felt burdensome for me when I first started out in programming. Nowadays however, this declaring a type feels almost necessary, especially to help with debugging.
+When I first started to learn how to code, following coding standards was the last thing on my mind. The most important thing to me was having the code work correctly and complete the desired task that I created it for. Over the past few years, as I’ve coded more (and read more code that wasn’t mine), I’ve learned how important it is to follow some sort of standard. Implementing a standard makes it easier to learn to learn code from other sources (assuming that they follow the same standard) as it is organized in a way that you are familiar with, and reading other peoples’ code becomes much easier as you don’t have to try to track where everything is situated within the entire project structure.
 
-## You Don’t Know What You’ve Got Until It’s Gone
+## My Enlightenment after using ESLint in VSCode
 
-Having spent over a year learning statically typed languages like Java, C, and C++ prior to learning JavaScript, I got really used to declaring types for every little variable, subroutine, method, and function in my code. Going back to a dynamically typed language like JavaScript really threw me off (despite having previous experience in other dynamically typed languages like Python and PowerShell), and left me open to making lots of mistakes for data types. This left me yearning for something similar to JavaScript that had strict typing. This is where TypeScript comes in handy, providing the extra features that JavaScript doesn’t currently offer. It took a while to get used to the syntax of TypeScript, especially coming from a background of Java where the types are all declared before the variable or block of code. But, the effort put into learning TypeScript definitely pays off, because TypeScript can save you a lot of time looking for type mistakes in your code, so you don’t have to spend hours debugging code like I did with PowerShell a while back. Debugging is the bane of my existence, so anything that can help with that is a life-saver and a game changer.
+Using ESLint over the past week has been a learning experience, but an experience that I’ve found to be very helpful. Although it is sometimes quite annoying to see a million errors (I don’t actually create that many errors thankfully) pop up on the screen, it is quite useful to see what is wrong and needs to be corrected. Without ESLint, there would definitely be a few errors that I might miss, such as a wrong declaration of a variable (using var instead of let or const), or not declaring a type, or even forgetting to add a newline at the end of the document (which I always tend to do). Having code that follows standards is very important, as it ensures that you don’t open yourself up to possible errors as a result of poor implementation, and makes it easier if or when you need to make changes to the code down the line.
 
-<div class="text-center pe-4"><img width="700px" src="../img/E10_TypeScript_Essay_Image.jpg"></div>
-<p style="text-align: center;">(McKenzie, 2018)<a href="https://www.theserverside.com/tutorial/What-Java-developers-need-to-know-about-TypeScript-syntax">[2]</a></p>
+<div class="text-center pe-4"><img width="700px" src="../img/E28_Coding_Standards_Essay_Image_BeforeESLintFix.png"></div>
+<p style="text-align: center;">My Typescript Before ESLint Fixes</p>
+<div class="text-center pe-4"><img width="700px" src="../img/E28_Coding_Standards_Essay_Image_AfterESLintFix.png"></div>
+<p style="text-align: center;">My Typescript Before ESLint Fixes</p>
 
-## Athletic Software Engineering
+The great thing about ESLint is that it has a helpful feature that automatically fixes some of the errors, which means that you have less problems to worry about while coding. The left image above is an example of a Typescript document in VScode with a bunch of errors, and the right image is the same Typescript document after running the command “npm run lint-fix” in the terminal which checks for errors and automatically corrects them (though there will still be some errors that you will have to manually fix). This feature has saved me a fair bit of time, allowing me to focus on more major problems in my code.
 
-Philip Johnson’s “Athletic Software Engineering” presents a different, but great way of approaching how to learn within a classroom setting. According to Johnson, “Without competency with a technology stack, it is difficult to experience significant coding and user interface design problems. Significant design problems are needed in order to provide a context for teams to experience process problems. And without the ability to solve both design and process problems, it is difficult to successfully design and implement a “real world” application.” (Johnson, 2017)<a href="https://philipmjohnson.org/essays/ase-2017.html">[1]</a>. Athletic software engineering strives to develop that competency, with training outside of class, and a workout of the day (WOD) in class, which focuses on a student’s ability to complete a given task within a short period of time. 
+## Final Thoughts
 
-Having done multiple projects before with a tight deadline in school (for multiple State of Hawaii HACCathons) and work, I find this approach towards learning to be quite beneficial, as I feel that it prepares me and establishes the pace at which I may need to work when I enter the industry after graduation. This approach also forces me to find the most efficient way to code a problem (more lines of code equals more time spent), which helps me to improve and learn new ways to code and solve problems. Not only does it establish a pace and improve efficiency, but it also builds confidence in my ability to write code quickly and efficiently, which is extremely important, as confidence could be the one thing that separates me from reaching that finish line or falling short. As stated by Trine University, “Once the athlete can determine if they have self-confidence they can have a better performance in their sport.” (Trine University, 2023)<a href="https://www.trine.edu/academics/centers/center-for-sports-studies/blog/2023/the_relationship_between_self-confidence_and_performance.aspx">[3]</a>. Like athletes, confidence is key in performing well when it comes to software engineering. By learning with the athletic software engineering approach, you’ll become the equivalent of a top athlete in the field of software engineering, and you’ll have obtained skills that can last a lifetime.
+Considering everything that I said earlier, I would definitely use ESLint if you have not touched ESLint before. Even though the many red lines popping up might be distracting while coding, and you might be intentionally coding in a way that triggers an ESLint error (which can get annoying over time), it is great to have ESLint around, as standardization is very important (especially when working with colleagues), and is great for general readability of code. So, if you ever are unsure about your code and need something to make sure that it is up to par with current coding standards, take a look at ESLint and try it out.
 
-## References
-
-[1] Athletic Software Engineering (2017) | Philip Johnson | Professional Portfolio. (2017). Philip Johnson | Professional Portfolio.
-https://philipmjohnson.org/essays/ase-2017.html
-
-[2] McKenzie, C. (2018, January 16). What Java developers need to know about TypeScript syntax. TheServerSide.com. 
-https://www.theserverside.com/tutorial/What-Java-developers-need-to-know-about-TypeScript-syntax
-
-[3] The relationship between Self-Confidence and performance. (2023). 
-https://www.trine.edu/academics/centers/center-for-sports-studies/blog/2023/the_relationship_between_self-confidence_and_performance.aspx
