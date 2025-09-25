@@ -22,12 +22,12 @@ Using ESLint over the past week has been a learning experience, but an experienc
 
 <div class="text-center pe-4">
   <div style="display: flex; justify-content: center; align-items: center">
-    <div style="margin: 5px">
-      <img style="height:auto; max-height:650px; min-height: 300px" src="../img/E28_Coding_Standards_Essay_Image_BeforeESLintFix.png">
+    <div style="margin: 5px; min-height: 300px; height:auto; max-height:650px">
+      <img src="../img/E28_Coding_Standards_Essay_Image_BeforeESLintFix.png">
       <p style="text-align: center;">My Typescript Before ESLint Fixes</p>
     </div>
-    <div style="margin: 5px">
-      <img style="height:auto; max-height:650px; min-height: 300px" src="../img/E28_Coding_Standards_Essay_Image_AfterESLintFix.png">
+    <div style="margin: 5px; min-height: 300px; height:auto; max-height:650px">
+      <img style="" src="../img/E28_Coding_Standards_Essay_Image_AfterESLintFix.png">
       <p style="text-align: center;">My Typescript After ESLint Fixes</p>
     </div>
   </div>
