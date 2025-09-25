@@ -21,7 +21,7 @@ When I first started to learn how to code, following coding standards was the la
 Using ESLint over the past week has been a learning experience, but an experience that I’ve found to be very helpful. Although it is sometimes quite annoying to see a million errors (I don’t actually create that many errors thankfully) pop up on the screen, it is quite useful to see what is wrong and needs to be corrected. Without ESLint, there would definitely be a few errors that I might miss, such as a wrong declaration of a variable (using var instead of let or const), or not declaring a type, or even forgetting to add a newline at the end of the document (which I always tend to do). Having code that follows standards is very important, as it ensures that you don’t open yourself up to possible errors as a result of poor implementation, and makes it easier if or when you need to make changes to the code down the line.
 
 <div class="text-center pe-4">
-  <div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center">
     <div style="margin: 5px">
       <img style="height:auto; min-height: 300px; max-height:600px" src="../img/E28_Coding_Standards_Essay_Image_BeforeESLintFix.png">
       <p style="text-align: center;">My Typescript Before ESLint Fixes</p>
