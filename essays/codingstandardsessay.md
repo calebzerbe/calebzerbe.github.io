@@ -23,7 +23,7 @@ Using ESLint over the past week has been a learning experience, but an experienc
 <div class="text-center pe-4"><img width="700px" src="../img/E28_Coding_Standards_Essay_Image_BeforeESLintFix.png"></div>
 <p style="text-align: center;">My Typescript Before ESLint Fixes</p>
 <div class="text-center pe-4"><img width="700px" src="../img/E28_Coding_Standards_Essay_Image_AfterESLintFix.png"></div>
-<p style="text-align: center;">My Typescript Before ESLint Fixes</p>
+<p style="text-align: center;">My Typescript After ESLint Fixes</p>
 
 The great thing about ESLint is that it has a helpful feature that automatically fixes some of the errors, which means that you have less problems to worry about while coding. The left image above is an example of a Typescript document in VScode with a bunch of errors, and the right image is the same Typescript document after running the command “npm run lint-fix” in the terminal which checks for errors and automatically corrects them (though there will still be some errors that you will have to manually fix). This feature has saved me a fair bit of time, allowing me to focus on more major problems in my code.
 
