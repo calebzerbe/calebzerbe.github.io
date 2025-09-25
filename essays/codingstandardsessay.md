@@ -23,11 +23,11 @@ Using ESLint over the past week has been a learning experience, but an experienc
 <div class="text-center pe-4">
   <div style="display: flex; justify-content: center; align-items: center">
     <div style="margin: 5px">
-      <img srcset="../img/E28_Coding_Standards_Essay_Image_BeforeESLintFix.png 150h, ../img/E28_Coding_Standards_Essay_Image_BeforeESLintFix.png 300h" sizes="(height <= 450px) 330px, 650px" src="../img/E28_Coding_Standards_Essay_Image_BeforeESLintFix.png">
+      <img srcset="../img/E28_Coding_Standards_Essay_Image_BeforeESLintFix.png 200h, ../img/E28_Coding_Standards_Essay_Image_BeforeESLintFix.png 400h" sizes="(height <= 300px) 200px, 400px" src="../img/E28_Coding_Standards_Essay_Image_BeforeESLintFix.png">
       <p style="text-align: center;">My Typescript Before ESLint Fixes</p>
     </div>
     <div style="margin: 5px">
-      <img srcset="../img/E28_Coding_Standards_Essay_Image_AfterESLintFix.png 150h, ../img/E28_Coding_Standards_Essay_Image_AfterESLintFix.png 300h" sizes="(height <= 450px) 330px, 650px" src="../img/E28_Coding_Standards_Essay_Image_AfterESLintFix.png">
+      <img srcset="../img/E28_Coding_Standards_Essay_Image_AfterESLintFix.png 200h, ../img/E28_Coding_Standards_Essay_Image_AfterESLintFix.png 400h" sizes="(height <= 300px) 200px, 400px" src="../img/E28_Coding_Standards_Essay_Image_AfterESLintFix.png">
       <p style="text-align: center;">My Typescript After ESLint Fixes</p>
     </div>
   </div>
