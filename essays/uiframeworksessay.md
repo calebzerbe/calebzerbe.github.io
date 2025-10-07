@@ -34,7 +34,7 @@ Participating in both coding challenges taught me the difficulty and preciseness
   </div>
 </div>
 
-The image above was a prototype page for the HACC 2022 coding challenge, which utilized no UI framework whatsoever. This page required hundreds of lines of HTML and CSS code to appear how it did, and took hours to complete with a small team of people. Errors were common when working on a short deadline (less than one month), and because of all of the code, it took forever to comb through and figure out what the problem was, let alone how to fix it. Creating something like that is not something that I would want to create again by scratch. This is where UI frameworks come in handy.
+The image above is a prototype page for the HACC 2022 coding challenge, which utilized no UI framework whatsoever. This page required hundreds of lines of HTML and CSS code to appear how it did, and took hours to complete with a small team of people. Errors were common when working on a short deadline (less than one month), and because of all of the code, it took forever to comb through and figure out what the problem was, let alone how to fix it. Creating something like that is not something that I would want to create again by scratch. This is where UI frameworks come in handy.
 
 ## UI Frameworks
 
