@@ -2,7 +2,6 @@
 layout: essay
 type: essay
 title: "Final Project Idea"
-## UH Manoa Event Organizer
 # All dates must be YYYY-MM-DD format!
 date: 2025-11-04
 published: True
@@ -11,7 +10,7 @@ labels:
   - Nextjs
 ---
 
-UH Manoa Event Organizer
+### UH Manoa Event Organizer
 * Proposers: Jazz Lam, Caleb Zerbe
 
 ## Overview
