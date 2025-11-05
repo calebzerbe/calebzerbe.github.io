@@ -62,6 +62,7 @@ Login
 #### Faculty & Staff Page
 Create/Edit Event
 * User will redirected to a form with the ability to upload/edit event location, time, semester, campus, searchable tags, description, add an image, and add students via username to a list of those who can edit your event.
+
 Event Approval
 * User will be able to see all events which requested them as a sponsor, and approve or deny the event’s addition to the events listing.
 
