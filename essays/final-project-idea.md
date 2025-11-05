@@ -13,6 +13,7 @@ labels:
 ## UH Manoa Event Organizer
 #### Proposers: Jazz Lam, Caleb Zerbe
 
+
 ## Overview
 #### The Problem:
 
