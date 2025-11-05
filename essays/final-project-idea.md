@@ -18,6 +18,7 @@ labels:
 #### The Problem:
 
 Throughout the semester, many students do not know what events are going on until the event is already happening or when it is already too late. There is a page that lists all current events that is hosted by UH, however it is simply designed as a list, overcrowding and overwhelming students as they look through the events posted. The information is not sorted by anything other than by campus. There are also no ways of viewing past events to know what to expect for the future.
+<br/>
 
 #### The Solution:
 
