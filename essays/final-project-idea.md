@@ -1,42 +1,56 @@
 ---
 layout: essay
 type: essay
-title: "Understanding UI Frameworks: Why are they so Fantastic?"
+title: "Final Project Idea"
 # All dates must be YYYY-MM-DD format!
-date: 2025-10-06
+date: 2025-11-04
 published: True
 labels:
-  - Coding Standards
-  - HTML
-  - CSS
-  - Bootstrap
-  - UI Frameworks
+  - Software Engineering
+  - Nextjs
 ---
 
-## Early Beginnings of HTML and CSS
+UH Manoa Event Organizer
+* Proposers: Jazz Lam, Caleb Zerbe
 
-It’s been about 5 years since I first started web development. Back in the beginning, things were very simple; I spent most of my time creating basic websites with very little CSS and HTML implementation. Every now and then, I would include an image or two in my work, which would require a little bit of formatting to get right. As I moved into my sophomore and junior years of high school, I started to do more and create more complex websites. This culminated in my participation in the 2021 and 2022 Hawaii Annual Coding Challenges. Specializing in front-end (HTML, CSS, JavaScript) for both challenges, I was required to use everything at my disposal, and learn all kinds of different HTML tags and CSS styles in order to build fully responsive and operational websites.
+## Overview
+The Problem:
+Throughout the semester, many students do not know what events are going on until the event is already happening or when it is already too late. There is a page that lists all current events that is hosted by UH, however it is simply designed as a list, overcrowding and overwhelming students as they look through the events posted. The information is not sorted by anything other than by campus. There are also no ways of viewing past events to know what to expect for the future.
 
-## First Big Hurdles
+The Solution:
+UH Manoa Event Organizer would be a digital platform for uploading and locating events on the UH Manoa campus. Users can upload and/or update information on events that will be occurring, which will then be posted to a main page which will display all current events happening on campus with a map showing the location of each event and further information once a user clicks on the event. Users can look for specific events occurring on a given date/semester, as well as look at past events, and will be able to set reminders via SMS or email, which will inform them prior to the event occurring. 
 
-Participating in both coding challenges taught me the difficulty and preciseness that one needs to have when styling a page. Each page required tons of testing, checking every little item to see how making small changes to the style would affect the layout of the webpage. Just one error, and the entire page’s layout could be in disarray. I spent countless hours working with my team to fix styling errors and html tagging errors, making sure that everything was as close as it could be to perfect so that the pages looked nice when the final product was ready to be presented.
+Approach
+For this app, we will create a campus-wide way to create, update, and locate events on the UH Manoa campus. There are three roles: Users (students), Faculty & Staff, and Admin (designated staff). Any user will be able to view events, view campus location of events, search for tags, favorite/set reminders for events. View a separate listing of past campus events sorted by semester. Authorized staff and faculty will be able to create listings for their events that will be able to be sorted and listed. Set location, time, semester, campus, searchable tags, description, an automatically scaled image. They will also be able to edit and delete events. They will also be able to add students as approved editors. Students will be able to create the same listings but it would have to go through approval of their faculty sponsor. Students will be able to request deletion/cancellation of their events.
 
-<div class="text-center pe-4 my-4"><img width="700px" src="../img/E37_UI_Frameworks_Essay_Image_HACCWithoutFramework.png"></div>
+The UH Manoa Event Organizer app will provide an easily accessible database of reported campus events. In addition to listing things by campus location, tags, favorite events, and semester of the event, users can filter events by keywords, date and time of the event, and event sponsor.
 
-The image above is a prototype page for the HACC 2022 coding challenge, which utilized no UI framework whatsoever. This page required hundreds of lines of HTML and CSS code to appear how it did, and took hours to complete with a small team of people. Errors were common when working on a short deadline (less than one month), and because of all of the code, it took forever to comb through and figure out what the problem was, let alone how to fix it. Creating something like that is not something that I would want to create again by scratch. This is where UI frameworks come in handy.
 
-## UI Frameworks
 
-UI frameworks are a collection of pre-built components, tools, and guidelines that help streamline the creation of user interfaces. They allow developers to utilize reusable UI elements (buttons, forms, containers, navigation bars, icons, etc.) that each come with built-in styling and interaction standards. This means that developers can build consistent and efficient user interfaces without building up from scratch, saving hours of time depending on the complexity of the website.
 
-## Benefits of Frameworks
 
-Although you have to spend some time learning UI frameworks before you can efficiently utilize them, their code is all documented (especially Bootstrap) and you can just access their code examples on their website if you need anything. In addition, the time spent learning how to use a UI framework is outshined by the time saved by using the framework’s code. All of the code follows a certain standard, which means that you can use the same classes and achieve the same results for two different items within a page, and you can easily understand what is going on just by reading the code (which is not always the case for self-written code). In addition, you can just add a word or two to a class to modify the code to follow a different styling (e.g. py-5 to increase the padding on the top and bottom of an item), which makes styling much more efficient.
+Mockup page ideas
+Landing page (Normal User)
+Feed (upcoming events, calendar))
+Dashboard (home, search, all events, login)
+Map (Map displaying the UH Manoa campus with markers of the locations of ongoing events for the month)
 
-<div class="text-center pe-4 my-4"><img width="700px" src="../img/E37_UI_Frameworks_Essay_Image_MicrosoftWithFramework.png"></div>
+Landing page (Student)
+Feed (my events, listing upcoming events, recommended events(listing events with favorited tags, calendar))
+Dashboard (home, search, all events, my events, and the option to create/edit an event)
+Map (Map displaying the UH Manoa campus with markers of the locations of ongoing events for the month)
 
-The image above is an example of what is possible using a UI framework. In this case, I used Bootstrap 5 to recreate the home page for Microsoft. This image, which encompasses a little less than the top quarter of the entire page that I created, only took about 120 lines of HTML code and 10 lines of CSS code, which is drastically less than what it took to create the less-complicated HACC webpage. This entire webpage has a working navbar with a hidden dropdown in the item “All Microsoft” and a working image carousel, while the HACC webpage only has a simple navbar and a few sets of buttons for user input. This is a great example of how useful UI frameworks can be, as it demonstrates how much more you can get done with less code just by implementing a framework.
+Landing page (Faculty & Staff)
+Feed (my events, listing upcoming events, recommended events(listing events with favorited tags, calendar))
+Dashboard (home, search, all events, my events, and the option to create/edit an event)
+Map (Map displaying the UH Manoa campus with markers of the locations of ongoing events for the month)
 
-## Final Thoughts
+Authentication Page
+Login (Prompts user to log in using UH username and password)
 
-I wouldn’t be lying if I told you that using UI frameworks like Bootstrap has made my life much easier. It took a while to get the hang of in the beginning, but after learning the ropes and looking at example code provided online by the UI framework themselves, I’ve now become familiar with how to use them. Using these frameworks has cut down the amount of HTML and CSS that I’ve had to write by crazy amounts, and I’ve been able to complete tasks that would have originally seemed daunting in just an hour or two. There is no complicated process to importing these frameworks either. Bootstrap, for example, just needs you to add a few links to your HTML document, which only increases the total amount of code by a few lines when compared to the hundreds of lines saved. So, if you are ever overwhelmed by the amount of HTML and CSS that you are writing, try a UI framework, and see how it transforms your webpage creation.
+Faculty & Staff Page
+Create/Edit Event (User will redirected to a form with the ability to upload/edit event location, time, semester, campus, searchable tags, description, add an image, and add students via username to a list of those who can edit your event)
+Event Approval Page (User will be able to see all events which requested them as a sponsor, and approve or deny the event’s addition to the events listing)
+
+Student Event Creation Page:
+Create/Edit Event (User will redirected to a form with the ability to upload/edit event location, time, semester, campus, searchable tags, description, add an image, user will have to input a authorized faculty username)
