@@ -12,7 +12,7 @@ labels:
 
 ## UH Manoa Event Organizer
 #### Proposers: Jazz Lam, Caleb Zerbe
-
+<br/>
 
 ## Overview
 #### The Problem:
@@ -32,26 +32,39 @@ The UH Manoa Event Organizer app will provide an easily accessible database of r
 ## Mockup Concepts
 
 #### Landing page (Normal User)
-Feed (upcoming events, calendar))
-Dashboard (home, search, all events, login)
-Map (Map displaying the UH Manoa campus with markers of the locations of ongoing events for the month)
+Feed
+* Shows upcoming events and calendar.
+Dashboard
+* Home, search, all events, login.
+Map
+* Map displaying the UH Manoa campus with markers of the locations of ongoing events for the month.
 
 #### Landing page (Student)
-Feed (my events, listing upcoming events, recommended events(listing events with favorited tags, calendar))
-Dashboard (home, search, all events, my events, and the option to create/edit an event)
-Map (Map displaying the UH Manoa campus with markers of the locations of ongoing events for the month)
+Feed
+* Shows my events, lists upcoming events, and shows recommended events (listing events with favorited tags, calendar).
+Dashboard
+* Home, search, all events, my events, and the option to create/edit an event.
+Map
+* Map displaying the UH Manoa campus with markers of the locations of ongoing events for the month.
 
 #### Landing page (Faculty & Staff)
-Feed (my events, listing upcoming events, recommended events(listing events with favorited tags, calendar))
-Dashboard (home, search, all events, my events, and the option to create/edit an event)
-Map (Map displaying the UH Manoa campus with markers of the locations of ongoing events for the month)
+Feed
+* Shows my events, lists upcoming events, and shows recommended events (listing events with favorited tags, calendar).
+Dashboard
+* Home, search, all events, my events, and the option to create/edit an event.
+Map
+* Map displaying the UH Manoa campus with markers of the locations of ongoing events for the month.
 
 #### Authentication Page
-Login (Prompts user to log in using UH username and password)
+Login
+* Prompts user to log in using UH username and password.
 
 #### Faculty & Staff Page
-Create/Edit Event (User will redirected to a form with the ability to upload/edit event location, time, semester, campus, searchable tags, description, add an image, and add students via username to a list of those who can edit your event)
-Event Approval Page (User will be able to see all events which requested them as a sponsor, and approve or deny the event’s addition to the events listing)
+Create/Edit Event
+* User will redirected to a form with the ability to upload/edit event location, time, semester, campus, searchable tags, description, add an image, and add students via username to a list of those who can edit your event.
+Event Approval
+* User will be able to see all events which requested them as a sponsor, and approve or deny the event’s addition to the events listing.
 
 #### Student Event Creation Page
-Create/Edit Event (User will redirected to a form with the ability to upload/edit event location, time, semester, campus, searchable tags, description, add an image, user will have to input a authorized faculty username)
+Create/Edit Event
+* User will redirected to a form with the ability to upload/edit event location, time, semester, campus, searchable tags, description, add an image, user will have to input a authorized faculty username.
