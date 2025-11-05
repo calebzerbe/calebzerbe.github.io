@@ -34,24 +34,30 @@ The UH Manoa Event Organizer app will provide an easily accessible database of r
 #### Landing page (Normal User)
 Feed
 * Shows upcoming events and calendar.
+
 Dashboard
 * Home, search, all events, login.
+
 Map
 * Map displaying the UH Manoa campus with markers of the locations of ongoing events for the month.
 
 #### Landing page (Student)
 Feed
 * Shows my events, lists upcoming events, and shows recommended events (listing events with favorited tags, calendar).
+
 Dashboard
 * Home, search, all events, my events, and the option to create/edit an event.
+
 Map
 * Map displaying the UH Manoa campus with markers of the locations of ongoing events for the month.
 
 #### Landing page (Faculty & Staff)
 Feed
 * Shows my events, lists upcoming events, and shows recommended events (listing events with favorited tags, calendar).
+
 Dashboard
 * Home, search, all events, my events, and the option to create/edit an event.
+
 Map
 * Map displaying the UH Manoa campus with markers of the locations of ongoing events for the month.
 
