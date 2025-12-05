@@ -20,22 +20,24 @@ Everywhere you go, you’ll see design patterns. Patterns are the foundation of 
 
 Design patterns are quite commonly used and applied to many different situations. Factory, for example, creates objects without exposing underlying logic, which can potentially return objects of different classes, create dependent objects, and return multiple objects. 
 
-<img src=""/>
-Factory diagram from Ruslan Dzhafarov (Jan 23, 2023) <a href="https://ruslandzhafarov.medium.com/design-patterns-in-swift-factory-88ab7356544a">[1]</a>
+<div class="text-center pe-4"><img width="700px" src="../img/E63_Design_Patterns_Essay_Image_FactoryDesignPattern.jpg"></div>
+<p style="text-align: center;">Factory diagram from Ruslan Dzhafarov (Jan 23, 2023)<a href="https://ruslandzhafarov.medium.com/design-patterns-in-swift-factory-88ab7356544a">[1]</a></p>
+
 
 Singleton creates a sort of global variable in an object-oriented language that does not support global variables or provide a global state. 
 
-<img src=""/>
-Singleton diagram from Ranjith ramachandran (Jun 22, 2015) <a href="https://www.youtube.com/watch?v=QsBQnFUx388">[3]</a>
+<div class="text-center pe-4"><img width="700px" src="../img/E63_Design_Patterns_Essay_Image_SingletonDesignPattern.jpg"></div>
+<p style="text-align: center;">Singleton diagram from Ranjith ramachandran (Jun 22, 2015)<a href="https://www.youtube.com/watch?v=QsBQnFUx388">[3]</a></p>
 
 Observer is based on the principle that there is a set of objects called the “Observers” that need to be informed when each change in state occurs to another object, called the “Subject”. An example of this would be event handlers.
 
-<img src=""/>
-Observer diagram from Wikipedia (Nov 4, 2025) <a href="https://en.wikipedia.org/wiki/Observer_pattern">[4]</a>
+<div class="text-center pe-4"><img width="700px" src="../img/E63_Design_Patterns_Essay_Image_ObserverDesignPattern.png"></div>
+<p style="text-align: center;">Observer diagram from Wikipedia (Nov 4, 2025)<a href="https://en.wikipedia.org/wiki/Observer_pattern">[4]</a></p>
 
 Finally, Model-View-Controller, which is widely used in web applications, allows you to decouple the internal representation of information presented to and accepted from a user. The model handles all of the data manipulation and logic, the view is responsible for presenting the data from the model to the user and also responsible for user interaction, and the controller is an intermediary between the model and view, which determines the appropriate view to display information, and takes the user input from the view to update the model.
 
-Model-View-Controller diagram from Robert Eckstein (Mar, 2007) <a href="https://www.oracle.com/technical-resources/articles/javase/mvc.html">[2]</a>
+<div class="text-center pe-4"><img width="700px" src="../img/E63_Design_Patterns_Essay_Image_ModelViewControllerDesignPattern.jpg"></div>
+<p style="text-align: center;">Model-View-Controller diagram from Robert Eckstein (Mar, 2007)<a href="https://www.oracle.com/technical-resources/articles/javase/mvc.html">[2]</a></p>
 
 ## Implementing of Design Patterns in my own Project
 
