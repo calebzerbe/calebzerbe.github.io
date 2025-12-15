@@ -8,8 +8,8 @@ published: True
 labels:
   - Effort
   - Estimation
-  - Tracking
   - Time
+  - Tracking
 ---
 
 ##Timing the Tick of the Clock
