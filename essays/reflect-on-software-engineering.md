@@ -1,0 +1,42 @@
+---
+layout: essay
+type: essay
+title: "Skills that Surpass the Realm of Software Engineering"
+# All dates must be YYYY-MM-DD format!
+date: 2025-12-17
+published: true
+labels:
+  - Agile Project Management
+  - Coding Standards
+  - Software Engineering
+---
+
+Life is all about learning new skills and ways of thinking. Unlike grade school, where you have the leisure of a whole year to learn one or two main concepts, college takes multiple different concepts and squishes them into a little less than six months for you to learn and implement. Throughout this semester, I’ve spent many hours learning the fundamentals of software engineering and how to approach a problem, especially when it comes to software development. Though many of these concepts are very important like configuration management (which tracks and controls changes to a piece of software or a system) and development environments (tools to help software engineers develop code efficiently), there were a few things that really stood out to me as something that I could take away from the course and utilize in the future, whether it be for any type of work, side projects, and future school assignments. Of these things, two in particular that I would like to cover are coding standards and agile project management, both of which being vital to one’s success in group work and delivering quality products.
+
+## Project Management
+
+Basically all major software used today (whether it be open-source or not) are managed by groups of people. It is very uncommon nowadays to work alone to create software for a client. The growing complexity of technology comes with an increase in the number and complexity of features people want for their product. Things like GPS mapping and AI integration were things that were practically unheard of in the past, but now things that every website wants to incorporate. Because of this, there comes a need for people of various backgrounds, whether it be related to business, programming, software security, product design, and user accessibility, among others. Working in a group has its advantages and disadvantages, because even though you now have more people to help you complete a project, you have to coordinate with them and make sure that everyone works together efficiently and produces a deliverable that the client is satisfied with. To aid in alleviating this problem, models were developed to lay out processes for efficiently and effectively developing software for a client. These models have become the underlying feature of project management, which is about planning, organizing, and observing the process of development. 
+
+## Agile Project Management and IDPM
+
+In recent years, agile methods have become the standard of project management, which is focused around fixed-length iterations/releases (forcing strict deadlines with no exceptions), delivering business value early (meaning that your first few releases are already usable), continuous and adaptive planning (changing things as you go along), emergent feature discovery (designing the product as you are building it out), and continuous testing (testing during development and not after the product is implemented). With this method, there will always be a task for you to work on, you know what to work on, you will rarely be blocked waiting for someone else to complete tasks, and the state of the project is visible at all times by all team members, making recognizing breakdowns in project management quick. Throughout the last month or two as we’ve worked on our final project, we’ve utilized a specific type of agile model called issue-driven project management (IDPM). In this type of management, you are to divide up the work into tasks, with no task taking longer than 3 days. Each task is specified by an issue, in which each issue has a single owner. These issues are then organized into milestones. Milestones partition a project into phases, represented by project boards, and all have an end-date. Only one milestone should be active at a time, and all project members should work on the issues associated with the current milestone when possible, as well as plan only the current milestone (which should be done through meetings every 2-3 days to update issues associated with the current milestone). Finally, it should be said that at all times, every person has at least one issue that they are responsible for closing (so that one person is not left doing nothing during the project, which destroys group efficiency). It should be noted that this system requires frequent meetings and communication to be effective.
+
+## Why IDPM and Agile Project Management is so Important
+
+After using this type of management for more than a month, I can confidently say that this is a method that is useful almost anywhere that involves some sort of group work or project. Through constant communication and assignment of tasks, no one is left to do nothing, which means that tasks can be accomplished much more efficiently and the project can quickly adapt as things change. This doesn’t only have to apply to web applications. It could work for any sort of software development, product creation, and anything related to developing items or tools for a client. Even if the entire method is not possible for specific circumstances (even the smallest tasks may be possibly too complicated to complete in 3 or less days), the great thing about this is that you can take parts of it and modify the rest to fit in the given instance. As long as the core fundamentals are there, like frequent communication and all project members having an understanding of their role in the project in each phase, then this form of project management is still viable to utilize. If a group can master this form of project management, their output of work and efficiency is sure to skyrocket upwards.
+
+## Can’t Have a Good Product Without Good Code
+
+Agile Project Management is good and all, but if you do not have quality code that is readable, then your product will end up being horrible, regardless of if your project management was amazing. This is where coding standards come into play. Coding standards make sure that people are following the best practices when coding and writing code that is functional, well-organized, efficient, and readable. When you don’t follow coding standards, it can cause group dysfunction, as one person will have to spend extra time reading and understanding the code of their teammate, slowing down the overall process and leading to potential misunderstandings as code may be misread or changed in a way that no one ends up knowing how it works. Throughout the semester, following Typescript coding standards were followed by implementing tools such as ESLint, which scanned for code that did not follow the standard and informed the user accordingly. This was a big help in the final project, as using this made it much easier for everyone to read and understand each other’s code (though with the sheer amount of code in our website, there was still a problem understanding it all in a timely manner). Keep in mind that this doesn’t just apply to Typescript or web applications. Coding standards can be followed for anything involving software development, and be used in any type of language, such as C/C++, Python, Java, Ruby, Rust, Perl, and much more. Only by following coding standards with agile project management can you develop a great product.
+
+<div class="text-center pe-4"><img width="700px" src="../img/Reflect_On_Software_Engineering_Essay_Image_Coding_Standards.png"></div>
+<p style="text-align: center;">Example of code following a standard (right) vs code not following a standard (left). 4geeks.com, 2025.
+<a href="https://4geeks.com/lesson/coding-standards-guidelines">[1]</a></p>
+
+## Conclusion
+
+Learning how to write good code and work efficiently with others are skills that will never be out of use in the computer science field. There is almost never a day where you will go without having to work with someone in addition to not writing code (depending on your job, but definitely so if you wind up being a software engineer), so learning agile project management and coding standards will be vital to your success. Only through learning how to create good products and work well with others can someone succeed and stand out in computer science.
+
+## References
+
+[1] General Coding Standards and Guidelines. (2025, July 16). 4Geeks. https://4geeks.com/lesson/coding-standards-guidelines
