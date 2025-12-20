@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/ImageForProfessionalPortfolioStudyBuddy.png
+image: img/ImageForProfessionalPortfolioStudyBuddy.jpg
 title: "Study Buddy - ICS 314 Final Project"
 date: 2025-12-12
 published: true
@@ -30,3 +30,8 @@ summary: "My team and I developed a web site for the Hawaii Marine Animal Respon
 
 The main goal of creating the Study Buddy application is to create a space where University of Hawaii students can connect with each other and form study commmunities, to help students build a stronger knowledgebase and improve the acquisition of knowledge on UH campuses through shared cooperation. In particular, this app was specifically built for ICS users to connect and form study sessions to aid in their progress throughout the semester. 
 
+In order to achieve this goal, the app was built to allow users to create study sessions which other users can attend. Each session is dedicated to one ICS course, and lasts no more than a day. Users can view their own sessions that they've created in a listed format as well as on the calendar. Users can also view all sessions, which can be filtered down by class, location, owner, and more. These sessions, like the personal user sessions, can be viewed on the calendar for all University of Hawaii students to see. To make things a little more interesting, users are also ranked by the number of sessions that they've created, so you can see how you compare to others in terms of participation within the application.
+
+## My Experiences
+
+For this 
