@@ -34,8 +34,8 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2028)",
-      "studyType": "B.S.",
+      "area": "Computer Science (expected Spring, 2028)", "Mathematics",
+      "studyType": "B.S.", "Minor",
       "startDate": "2024-09-01",
       "endDate": "Present",
       "courses": [ 
