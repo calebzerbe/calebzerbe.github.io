@@ -49,27 +49,27 @@ Working on this project taught me a lot of things. First was how design patterns
 Below I will provide some example images of the sign up page, user profile page, create session page, user calendar page (not the main calendar that all users can see), and the all sessions page so you can take a look at our work.
 
 <div class="text-center p-4">
-  <img width="700px" src="../img/projectimages/HMAR Sighting Form Top of Screen.png" class="img-thumbnail" >
-  <p style="text-align: center;">Sign In Page</p>
+  <img width="700px" src="../img/projectimages/Study Buddy Sign Up Page.png" class="img-thumbnail" >
+  <p style="text-align: center;">Sign Up Page</p>
 </div>
 
 <div class="text-center p-4">
-  <img width="700px" src="../img/projectimages/HMAR Sighting Form Top of Screen.png" class="img-thumbnail" >
+  <img width="700px" src="../img/projectimages/Study Buddy User Profile Page.png" class="img-thumbnail" >
   <p style="text-align: center;">User Profile Page</p>
 </div>
 
 <div class="text-center p-4">
-  <img width="700px" src="../img/projectimages/HMAR Sighting Form Top of Screen.png" class="img-thumbnail" >
+  <img width="700px" src="../img/projectimages/Study Buddy Create Session Page.png" class="img-thumbnail" >
   <p style="text-align: center;">Create Session Page</p>
 </div>
 
 <div class="text-center p-4">
-  <img width="700px" src="../img/projectimages/HMAR Sighting Form Top of Screen.png" class="img-thumbnail" >
+  <img width="700px" src="../img/projectimages/Study Buddy My Calendar Page.png" class="img-thumbnail" >
   <p style="text-align: center;">User Calendar Page</p>
 </div>
 
 <div class="text-center p-4">
-  <img width="700px" src="../img/projectimages/HMAR Sighting Form Top of Screen.png" class="img-thumbnail" >
+  <img width="700px" src="../img/projectimages/Study Buddy All Sessions Page.png" class="img-thumbnail" >
   <p style="text-align: center;">All Sessions Page</p>
 </div>
 
