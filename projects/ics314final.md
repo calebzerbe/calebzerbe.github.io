@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/ImageForProfessionalPortfolioHACC2021.jpg
+image: img/ImageForProfessionalPortfolioStudyBuddy.png
 title: "Study Buddy - ICS 314 Final Project"
 date: 2025-12-12
 published: true
